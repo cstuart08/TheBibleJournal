@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		7E7CA5D0252A6CD5006A0E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5CF252A6CD5006A0E91 /* AppDelegate.swift */; };
 		7E7CA5D2252A6CD5006A0E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5D1252A6CD5006A0E91 /* SceneDelegate.swift */; };
-		7E7CA5D4252A6CD5006A0E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5D3252A6CD5006A0E91 /* ViewController.swift */; };
 		7E7CA5D7252A6CD5006A0E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CA5D5252A6CD5006A0E91 /* Main.storyboard */; };
 		7E7CA5D9252A6CD7006A0E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CA5D8252A6CD7006A0E91 /* Assets.xcassets */; };
 		7E7CA5DC252A6CD7006A0E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CA5DA252A6CD7006A0E91 /* LaunchScreen.storyboard */; };
+		7E7CA5E5252A6D6C006A0E91 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5E4252A6D6C006A0E91 /* Book.swift */; };
+		7E7CA5E8252A6EDF006A0E91 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5E7252A6EDF006A0E91 /* BookController.swift */; };
+		7E7CA5EB252A6FCB006A0E91 /* ESVNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5EA252A6FCB006A0E91 /* ESVNetworkService.swift */; };
+		7E7CA5EE252A712D006A0E91 /* ChapterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5ED252A712D006A0E91 /* ChapterError.swift */; };
+		7E7CA5FF252A72E3006A0E91 /* BoolListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CA5FE252A72E3006A0E91 /* BoolListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E7CA5CC252A6CD5006A0E91 /* TheBibleJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBibleJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7CA5CF252A6CD5006A0E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E7CA5D1252A6CD5006A0E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E7CA5D3252A6CD5006A0E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E7CA5D6252A6CD5006A0E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E7CA5D8252A6CD7006A0E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E7CA5DB252A6CD7006A0E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E7CA5DD252A6CD7006A0E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7CA5E4252A6D6C006A0E91 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		7E7CA5E7252A6EDF006A0E91 /* BookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
+		7E7CA5EA252A6FCB006A0E91 /* ESVNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESVNetworkService.swift; sourceTree = "<group>"; };
+		7E7CA5ED252A712D006A0E91 /* ChapterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterError.swift; sourceTree = "<group>"; };
+		7E7CA5FE252A72E3006A0E91 /* BoolListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,83 @@
 		7E7CA5CE252A6CD5006A0E91 /* TheBibleJournal */ = {
 			isa = PBXGroup;
 			children = (
-				7E7CA5CF252A6CD5006A0E91 /* AppDelegate.swift */,
-				7E7CA5D1252A6CD5006A0E91 /* SceneDelegate.swift */,
-				7E7CA5D3252A6CD5006A0E91 /* ViewController.swift */,
-				7E7CA5D5252A6CD5006A0E91 /* Main.storyboard */,
-				7E7CA5D8252A6CD7006A0E91 /* Assets.xcassets */,
-				7E7CA5DA252A6CD7006A0E91 /* LaunchScreen.storyboard */,
-				7E7CA5DD252A6CD7006A0E91 /* Info.plist */,
+				7E7CA5F0252A723A006A0E91 /* Resources */,
+				7E7CA5F2252A7244006A0E91 /* Views */,
+				7E7CA5F4252A725C006A0E91 /* Models */,
+				7E7CA5F6252A7266006A0E91 /* Model Controllers */,
+				7E7CA601252A72E8006A0E91 /* View Controllers */,
+				7E7CA5F8252A7278006A0E91 /* Network Services */,
+				7E7CA5FA252A7281006A0E91 /* Custom Errors */,
 			);
 			path = TheBibleJournal;
+			sourceTree = "<group>";
+		};
+		7E7CA5F0252A723A006A0E91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5CF252A6CD5006A0E91 /* AppDelegate.swift */,
+				7E7CA5D1252A6CD5006A0E91 /* SceneDelegate.swift */,
+				7E7CA5D8252A6CD7006A0E91 /* Assets.xcassets */,
+				7E7CA5DD252A6CD7006A0E91 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E7CA5F2252A7244006A0E91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5F3252A724C006A0E91 /* Storyoards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E7CA5F3252A724C006A0E91 /* Storyoards */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5D5252A6CD5006A0E91 /* Main.storyboard */,
+				7E7CA5DA252A6CD7006A0E91 /* LaunchScreen.storyboard */,
+			);
+			path = Storyoards;
+			sourceTree = "<group>";
+		};
+		7E7CA5F4252A725C006A0E91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5E4252A6D6C006A0E91 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E7CA5F6252A7266006A0E91 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5E7252A6EDF006A0E91 /* BookController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		7E7CA5F8252A7278006A0E91 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5EA252A6FCB006A0E91 /* ESVNetworkService.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		7E7CA5FA252A7281006A0E91 /* Custom Errors */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5ED252A712D006A0E91 /* ChapterError.swift */,
+			);
+			path = "Custom Errors";
+			sourceTree = "<group>";
+		};
+		7E7CA601252A72E8006A0E91 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CA5FE252A72E3006A0E91 /* BoolListTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E7CA5D4252A6CD5006A0E91 /* ViewController.swift in Sources */,
+				7E7CA5E5252A6D6C006A0E91 /* Book.swift in Sources */,
+				7E7CA5E8252A6EDF006A0E91 /* BookController.swift in Sources */,
+				7E7CA5EE252A712D006A0E91 /* ChapterError.swift in Sources */,
 				7E7CA5D0252A6CD5006A0E91 /* AppDelegate.swift in Sources */,
+				7E7CA5FF252A72E3006A0E91 /* BoolListTableViewController.swift in Sources */,
 				7E7CA5D2252A6CD5006A0E91 /* SceneDelegate.swift in Sources */,
+				7E7CA5EB252A6FCB006A0E91 /* ESVNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KMTDCPCY5V;
-				INFOPLIST_FILE = TheBibleJournal/Info.plist;
+				INFOPLIST_FILE = TheBibleJournal/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +387,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KMTDCPCY5V;
-				INFOPLIST_FILE = TheBibleJournal/Info.plist;
+				INFOPLIST_FILE = TheBibleJournal/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
